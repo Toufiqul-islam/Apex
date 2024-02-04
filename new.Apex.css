@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+}
+.top-menu{
+    background-color: gainsboro;
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+.top{
+    color: black;
+    text-decoration: none;
+    padding:  5px 20px;
+    position: relative;
+}
+.top:hover{
+    text-decoration: underline;
+}
+.top::after{
+    content: '';
+    height: 15px;
+    width: 2px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    background-color: black;
+}
+.header{
+    background-image: url('./apex2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+.secondary-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.secondary-menu:hover{
+    background-color: white;
+}
+.menu-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 0 10px;
+    color: red;
+    font-size: 30px;
+}
+.mt{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.menu-icons{
+    margin-right: 30px;
+}
+
+.icon{
+    color: white;
+    padding: 5px 10px;
+}
+.secondary-menu:hover .mt{
+    color: black;
+}
+.secondary-menu:hover .icon{
+    color: black;
+}
+.tag-line{
+    text-align: center;
+}
+.tag{
+    color: white;
+    font-size: 40px;
+}
+.btn-out{
+    background-color: transparent;
+    color: white;
+    border:  1px solid white;
+    padding: 5px;
+    margin: 0 10px;
+}
+.mid{
+    position: relative;
+    display:flex;
+}
+.step{
+    font-size: 25px;
+}
+.text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin-bottom: 100px;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    width: 100%;
+
+}
+.buto{
+    display:flex;
+    justify-content:left;
+    align-items:normal;
+}
+.but{
+    background-color: transparent;
+    color: white;
+    border:  1px solid white;
+    padding: 5px;
+    margin: 0 10px;
+    width: 75px;
+    border-radius:5px;
+}
+.image1{
+    position: absolute;
+    top:40%;
+    left: 5%;
+}
+.image1>img{
+    width: 60%;
+    z-index: 1;
+}
+.vi{
+    position: absolute;
+    top:-30%;
+    right:2%;
+    z-index: 1;
+}
+.block{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 05%;
+    margin-right: 05%;
+}
+.dimage>img{
+    width: 97%;
+    height: auto;
+    justify-content:center;
+    margin: 03%;
+
+}
+.dimage>img{
+    padding:05;
+}
+.d{
+
+}
+.name{
+    font-size: 20px;
+}
+.dit{
+    
+}
+.ad>a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.poster{
+    position:relative;
+    width: 95%;
+    margin-right: 05%;
+}
+.poster>.poster1{
+    width:100%;
+}
+
+.mark>.poster2{
+    position:absolute;
+    width: 20%;
+    top: 10%;
+    right: 10%;
+}
+.detals{
+    position:absolute;
+    top:66%;
+    right:05%;
+    text-align: right;
+}
+.detals>p{
+    font-size: 20px;
+}
+.tdesigned{
+    font-size: 30px;
+}
+.a>button>a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    
+    width: 90%;
+    margin-left: 05%;
+    margin-right: 05%;
+}
+.lmain{
+    margin-top: 1%;
+    padding-left: 35%;
+    border-top: 2px solid black;
+    padding-bottom: 3%;
+    border-left: 2px solid black;
+}
+.head{
+    width:30% ;
+    text-align: center;
+}
+.rmain{
+    margin-top: 3%;
+    padding-left: 35%;
+    border-top: 2px solid black;
+    padding-bottom: 1%;
+    border-right: 2px solid black;
+}
+.bag{
+    display: flex;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.bag>.bag1>img{
+    width:100% ;
+}
+.bag>.bag2>img{
+    width:100% ;
+}
+.bag>.bag3>img{
+    width:100% ;
+}
+.bottoml{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 4%;
+    border-bottom: 2px solid black ;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.ad{
+    display: flex;
+    margin:5% 0% 5% 5% ;
+}
+.ad1{
+    width:44%;
+    margin-right: 1%;
+}
+.ad2{
+    width: 44%;
+    margin-left: 1%;
+}
+.ad1>img{
+    width: 100%;
+}
+.ad2>img{
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .top-menu{
+        background-color: black;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .top-menu{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .m-text{
+        display:none;
+    }
+}
