@@ -240,12 +240,17 @@ body{
     margin:5% 0% 5% 5% ;
 }
 .ad1{
-    width:44%;
+    width:30%;
     margin-right: 1%;
 }
 .ad2{
-    width: 44%;
+    width: 30%;
     margin-left: 1%;
+    margin-right: 1%;
+}
+.ad3{
+    width:30%;
+    margin-left:  1%;
 }
 .ad1>img{
     width: 100%;
@@ -253,6 +258,10 @@ body{
 .ad2>img{
     width: 100%;
 }
+.ad3>img{
+    width:100%;
+}
+
 
 @media screen and (max-width: 850px) {
     .top-menu{
