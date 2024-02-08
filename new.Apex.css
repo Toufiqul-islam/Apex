@@ -98,6 +98,7 @@ body{
     padding-bottom: 20%;
     padding-left: 5%;
     width: 100%;
+    position: relative;
 
 }
 .buto{
@@ -116,22 +117,25 @@ body{
 }
 .image1{
     position: absolute;
-    top:40%;
+    top:50%;
     left: 5%;
 }
 .image1>img{
-    width: 60%;
-    z-index: 1;
+    width: 50%;
+    z-index: 0;
+}
+.vi>video{
+    width: 110%;
 }
 .vi{
     position: absolute;
-    top:-30%;
-    right:2%;
+    top:-10%;
+    left:60%;
     z-index: 1;
 }
 .block{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 05%;
     margin-right: 05%;
 }
