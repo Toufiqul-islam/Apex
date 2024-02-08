@@ -181,6 +181,7 @@ body{
 }
 .detals>p{
     font-size: 20px;
+    color: #cab088;
 }
 .tdesigned{
     font-size: 30px;
@@ -263,6 +264,248 @@ body{
 }
 
 
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+.arrow1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}  
+.arrow3{
+    display: flex;
+}
+.al{
+    margin: 25px;
+    padding: 5px;
+}
+.ar{
+    margin: 25px;
+    padding: 5px;
+}
+.al:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.ar:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.shoe{
+    display: flex;
+    margin: 0% 5% 0% 5%;
+}
+.shoe>div>img{
+    width: 100%;
+}
+.shoe>div>p{
+    padding-left: 50px ;
+}
+.forth{
+    display:flex;
+    margin: 0% 5% 0% 5%;
+
+}
+.forth>.forth1>img{
+    position: relative;
+}
+.forth>.forth1>img{
+    width:98%;
+    margin: 2%;
+
+}
+.forth>.forth1>div>a{
+    position: absolute;
+    bottom: 50px;
+    background-color: black;
+    z-index: 1;
+}
+.forth>.forth2{
+    position: relative;
+}
+.forth>.forth2>img{
+    width:98%;
+    margin: 2%;
+}
+.forth>.forth2>div>a{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.forth>.forth2>div>a:hover{
+    text-decoration: underline;
+}
+.forth>.forth3{
+    position: relative;
+}
+.forth>.forth3>img{
+    width:98%;
+    margin: 2%;
+}
+.forth>.forth3>div>a{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.forth>.forth2>div>a:hover{
+    text-decoration: underline;
+}
+.forth>.forth4{
+    position: relative;
+}
+.forth>.forth4>img{
+    width:98%;
+    margin:2%;
+}
+.forth>.forth4>div>a{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.forth>.forth2>div>a:hover{
+    text-decoration: underline;
+}
+.bottom1{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.bottom11{
+    width: 27.5%;
+    padding: 2% 2% 2% 7%;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.562);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+}
+.bottom11>img{
+    width: 40%;
+    
+}
+.bottom12{
+    width:22.5%;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.527);
+    border-left: 1px solid rgba(0, 0, 0, 0.548);;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.527);;
+}
+.bottom13{
+    width:22.5%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.568);
+}
+.bottom14{
+    width:22.5%;
+    text-align: center;
+    padding-right: 5%;
+    padding: 5% ;
+    border-top: 1px solid rgba(0, 0, 0, 0.568);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+}
+.bottom141{
+    display: flex;
+}
+.bottom141>a>img{
+    width: 30px;
+    justify-content: center;
+    padding: 3px;
+}
+.bottom2{
+    display: flex;
+    width: 100%;
+
+}
+.bottom21{
+    width:27.5%;
+    padding: 2% 2% 2% 7%;
+    position: relative;
+}
+.bottom211{
+    font-weight: 900;
+    font-size: large;
+}
+.bottom213{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.bottom214{
+    position: absolute;
+    top:75%;
+    left:55%
+}
+.bottom214>button{
+    width: 40px;
+    height: 37px;
+    font-size: 30px;
+    text-decoration: wavy;
+    color:aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+.bottom214>button:hover{
+    background-color: aliceblue;
+    color: black;
+    border: .5px solid black;
+}
+.bottom22{
+    width: 22.5%;
+    padding: 2%;
+    text-align: center;
+}
+.bottom221{
+    font-weight: 900;
+    font-size: large;
+}
+.bottom23{
+    width: 22.5%;
+    padding: 2%;
+    text-align: center;
+}
+.bottom231{
+    font-weight: 900;
+    font-size: large;
+}
+.bottom24{
+    width: 27.5%;
+}
+.bottom24>img{
+    width: 70%;
+    padding: 20%;
+}
+.end{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 30px;
+}
 @media screen and (max-width: 850px) {
     .top-menu{
         background-color: black;
