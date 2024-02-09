@@ -94,7 +94,7 @@ body{
 .text{
     color: white;
     background-color: rgba(0, 0, 0, 0.719);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     padding-bottom: 20%;
     padding-left: 5%;
     width: 100%;
@@ -110,10 +110,16 @@ body{
     background-color: transparent;
     color: white;
     border:  1px solid white;
+    font-size: large;
     padding: 5px;
     margin: 0 10px;
-    width: 75px;
+    width: 100px;
     border-radius:5px;
+}
+.but:hover{
+    font-size: 20px;
+    width:120px;
+    color: black;
 }
 .image1{
     position: absolute;
@@ -121,11 +127,11 @@ body{
     left: 5%;
 }
 .image1>img{
-    width: 50%;
+    width: 60%;
     z-index: 0;
 }
 .vi>video{
-    width: 110%;
+    width: 105%;
 }
 .vi{
     position: absolute;
@@ -150,7 +156,17 @@ body{
     padding:05;
 }
 .d{
-
+    padding-left: 25px;
+}
+.ad{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 0px ;
+    line-height: 15px;
+}
+.ad:hover{
+    font-size: 20px;
 }
 .name{
     font-size: 20px;
@@ -164,7 +180,7 @@ body{
 }
 .poster{
     position:relative;
-    width: 95%;
+    width: 100%;
     margin-right: 05%;
 }
 .poster>.poster1{
@@ -201,7 +217,7 @@ body{
     margin-right: 05%;
 }
 .lmain{
-    margin-top: 1%;
+    margin-top: 3%;
     padding-left: 35%;
     border-top: 2px solid black;
     padding-bottom: 3%;
@@ -215,7 +231,7 @@ body{
     margin-top: 3%;
     padding-left: 35%;
     border-top: 2px solid black;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     border-right: 2px solid black;
 }
 .bag{
@@ -247,15 +263,42 @@ body{
 .ad1{
     width:30%;
     margin-right: 1%;
+    position: relative;
+}
+.text1{
+    position:absolute;
+    width: 85%;
+    left: 5%;
+    top:90%;
+    background-color: #ffffff;
+    padding: 10px;
 }
 .ad2{
     width: 30%;
     margin-left: 1%;
     margin-right: 1%;
+    position: relative;
+}
+.text2{
+    position:absolute;
+    width: 85%;
+    left: 5%;
+    top:90%;
+    background-color: #ffffff;
+    padding: 10px;
 }
 .ad3{
     width:30%;
     margin-left:  1%;
+    position: relative;
+}
+.text3{
+    position:absolute;
+    width: 85%;
+    left: 5%;
+    top:90%;
+    background-color: #ffffff;
+    padding: 10px;
 }
 .ad1>img{
     width: 100%;
@@ -266,10 +309,6 @@ body{
 .ad3>img{
     width:100%;
 }
-
-
-
-
 .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -453,17 +492,17 @@ body{
     font-weight: 900;
     font-size: large;
 }
-.bottom213{
+.bottom2131{
     width: 100px;
     height: 30px;
     border-radius: 10px;
 }
-.bottom214{
+.bottom2132{
     position: absolute;
+    left:55%;
     top:75%;
-    left:55%
 }
-.bottom214>button{
+.bottom2132>button{
     width: 40px;
     height: 37px;
     font-size: 30px;
