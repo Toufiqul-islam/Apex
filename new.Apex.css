@@ -37,6 +37,8 @@ body{
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: sticky;
+    top: 0px;
 }
 .secondary-menu:hover{
     background-color: white;
@@ -58,8 +60,19 @@ body{
 }
 .menu-icons{
     margin-right: 30px;
+    display: flex;
 }
-
+.ico{
+    position: relative;
+}
+.p0{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    color: red;
+    font-weight: 900;
+    font-size: large;
+}
 .icon{
     color: white;
     padding: 5px 10px;
