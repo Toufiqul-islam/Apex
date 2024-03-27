@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./new.Apex.css">
-    <title>Document</title>
+    <title>Product List</title>
 </head>
 <body>
     <div class="top-menu">
@@ -34,9 +34,9 @@
             <div class="menu-icons">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass "></i></div>
                 <div class="icon"><i class="fa-regular fa-heart"></i></div>
-                <div class="icon ico">
+                <div class="icon side-panel">
                     <i class="fa-solid fa-bag-shopping"></i>
-                    <div class="p0"><p>0</p></div>
+                    <!--<div class="p0"><p>0</p></div>-->
                 </div>
                 <div class="icon"><i class="fa-solid fa-user"></i></div>
             </div>
@@ -71,18 +71,62 @@
         </div>
     </div>
     <!--Home work-->
-    <div id="side-panel" style="right: -300px; opacity: 0;">
-        <button id="clos" style="cursor:pointer;">clos</button>
-        <h2>Selected Products</h2>
-        <ul id="selected-products">
-            <li>
-                ::marker
-                "Bata 1-$30"
-            </li>
-        </ul>
-        <div id="total-price">Total: $30.00</div>
-    </div>
     <!--Home work-->
+    <div class="grid-container">
+        <div class="card">
+          <img src="./33669373-29be-4588-a05a-4b66aefd600b (1).jpg" alt="Item 1" class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Sprint</h3>
+            <p>Fuel Your Athletic Passion with a spark </p>
+            <p class="card-price">$20</p>
+            <p class="card-category">Rahshahi</p>
+            <button class="add-to-cart" id="AddToCard">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./c261b3bb-e893-474e-83b9-d6d7544c40b5 (1).jpg" alt="Item 1" class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Sprint</h3>
+            <p>Fuel Your Athletic Passion with a spark </p>
+            <p class="card-price">$30</p>
+            <p class="card-category">Natore</p>
+            <button class="add-to-cart" id="AddToCard">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./c261b3bb-e893-474e-83b9-d6d7544c40b5 (1).jpg" alt="Item 1" class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Sprint</h3>
+            <p>Fuel Your Athletic Passion with a spark </p>
+            <p class="card-price">$40</p>
+            <p class="card-category">Gurudashpur</p>
+            <button class="add-to-cart" id="AddToCard">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./d79e8179-77bb-4122-8b16-858c3516d743 (1).jpg" alt="Item 1" class="card-image">
+          <div class="card-content">
+            <h3 class="card-title">Sprint</h3>
+            <p>Fuel Your Athletic Passion with a spark </p>
+            <p class="card-price">$50</p>
+            <p class="card-category">Shikarpur</p>
+            <button class="add-to-cart" id="AddToCard">Add to Cart</button>
+          </div>
+        </div>
+        
+      
+      </div>
+      
+      
+      
+      <div id="side-panel">
+        <button id="Clos" style="cursor: pointer;">clos</button>
+        <h2>Selected Products</h2>
+        <ul id="selected-products"></ul>
+        <div id="total-price">Total: $0</div>
+      </div>
+
+    <!--
     <div class="block">
         <div class="dimage">
             <img src="./33669373-29be-4588-a05a-4b66aefd600b (1).jpg">
@@ -113,6 +157,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <div class="poster">
         <img class="poster1"  src="./027db74f-defb-415a-ac5d-85f877aadf3f.jpg">

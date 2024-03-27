@@ -65,6 +65,90 @@ body{
 .ico{
     position: relative;
 }
+/*Home work */
+.grid-container {
+    width: 84%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .card-category {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0 0;
+  }
+  
+  .add-to-cart {
+    display: block;
+    width: 100px;
+    padding: 8px;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color:black;
+    color: #f1f1f1;
+  }
+  
+  
+  
+  
+  #side-panel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    opacity: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f5f5f5;
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 2;
+  }
+  #total-price {
+    margin-top: 20px;
+    font-weight: bold;
+    border-top: 2px black ;
+  }
+
+
 .p0{
     position: absolute;
     top: -25px;

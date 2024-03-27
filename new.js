@@ -1,17 +1,9 @@
-let val =0;
-function sum(){
-    val = val +1;
-    document.querySelector('.p0').innerHTML = val;
-}
-document.querySelector('.ajs1').addEventListener('click', sum);
-document.querySelector('.ajs2').addEventListener('click', sum);
-document.querySelector('.ajs3').addEventListener('click', sum);
-document.querySelector('.ajs4').addEventListener('click', sum);
+
 
 const Clos = document.querySelectorAll('#Clos');
 const selectedProducts = document.getElementById('selected-products');
 const sidePanel = document.getElementById('side-panel');
-const AddToCard = document.querySelectorAll('.ico');
+const AddToCard = document.querySelectorAll('.add-to-cart');
 
 let totalPrice = 0;
 
@@ -21,11 +13,11 @@ function updateTotalPrice() {
 
 AddToCard.forEach(function(button) {
   button.addEventListener('click', function() {
-    const price = parseFloat(button.parentElement.querySelector('.ajs1').textContent.slice(1));
+    const price = parseFloat(button.parentElement.querySelector('.card-price').textContent.slice(1));
     totalPrice += price;
     updateTotalPrice();
-    const productName = button.parentElement.querySelector('.ajs1').textContent;
-    const productPrice = button.parentElement.querySelector('.ajs1').textContent;
+    const productName = button.parentElement.querySelector('.card-title').textContent;
+    const productPrice = button.parentElement.querySelector('.card-price').textContent;
     const li = document.createElement('li');
     li.textContent = productName +" " + "-" +" " + productPrice;
     selectedProducts.appendChild(li);
